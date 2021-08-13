@@ -7,7 +7,7 @@ int	main(void)
 {
 	int *tab;
 	int a[3] = {11, 10, 5};
-	int size = 2;
+	int size = 3;
 
 	tab = a;
 	ft_rev_int_tab(tab, size);

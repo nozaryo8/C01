@@ -2,7 +2,7 @@ void	ft_rev_int_tab(int *tab, int size)
 {
 	int	i;
 	int	j;
-	int	array[size];
+	int	array[256];
 
 	i = 0;
 	j = size - 1;
