@@ -1,16 +1,16 @@
 #include <unistd.h>
 #include <stdio.h>
 
-void ft_sort_int_tab(int *tab, int size)
+void	ft_sort_int_tab(int *tab, int size)
 {
-	int i;
-	int j;
-	int tmp;
+	int	i;
+	int	j;
+	int	tmp;
 
 	i = 0;
 	j = 1;
 	while ( i < size ) {
-		while( j < size ) {
+		while ( j < size ) {
 			if (tab[i] > tab[j]) {
 				tmp =  tab[i];
 				tab[i] = tab[j];
