@@ -7,7 +7,7 @@ int	main(void)
 {
 	int *tab;
 	int a[3] = {11, 10, 5};
-	int size = 6;
+	int size = 3;
 
 	tab = a;
 	ft_rev_int_tab(tab, size);
@@ -15,4 +15,5 @@ int	main(void)
 	for(int i=0; i < size; i++){
 		printf("%d", tab[i]);
 	}
+	return (0);
 }

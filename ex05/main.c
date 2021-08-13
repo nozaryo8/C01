@@ -6,7 +6,7 @@ void ft_putstr(char *str);
 int	main(void)
 {
 	char *str;
-	char a[256] = "dfadfafafdafafadsfd";
+	char a[256] = "aa";
 
 	str = a;
 	
