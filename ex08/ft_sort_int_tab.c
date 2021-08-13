@@ -9,8 +9,8 @@ void	ft_sort_int_tab(int *tab, int size)
 
 	i = 0;
 	j = 1;
-	while ( i < size ) {
-		while ( j < size ) {
+	while (i < size) {
+		while (j < size) {
 			if (tab[i] > tab[j]) {
 				tmp =  tab[i];
 				tab[i] = tab[j];
