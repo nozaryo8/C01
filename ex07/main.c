@@ -5,7 +5,7 @@ void ft_rev_int_tab(int *tab, int size);
 
 int	main(void)
 {
-	int *tab;
+ 	int *tab;
 	int a[3] = {11, 10, 5};
 	int size = 3;
 
@@ -15,5 +15,6 @@ int	main(void)
 	for(int i=0; i < size; i++){
 		printf("%d", tab[i]);
 	}
+	printf("%d", 3/2);
 	return (0);
 }
